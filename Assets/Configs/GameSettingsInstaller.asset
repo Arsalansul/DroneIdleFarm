@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd64dc78f0a44f8389c421b2d97f3e0e, type: 3}
+  m_Name: GameSettingsInstaller
+  m_EditorClassIdentifier: 
+  Factions:
+  - faction: 0
+    mainColor: {r: 0.14048593, g: 0.43478978, b: 0.7264151, a: 1}
+    textColor: {r: 0, g: 0, b: 0, a: 1}
+  - faction: 1
+    mainColor: {r: 0.7254902, g: 0.14117645, b: 0.24729624, a: 1}
+    textColor: {r: 0, g: 0, b: 0, a: 1}
+  - faction: 2
+    mainColor: {r: 0, g: 0, b: 0, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+  - faction: 3
+    mainColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 0, g: 0, b: 0, a: 1}
+  uiPrefabs:
+    scoreView: {fileID: 424267906520785569, guid: 4b04edce47ef4bf46829ca388da71c66,
+      type: 3}
+    droneSettingsView: {fileID: 6078137754373330168, guid: 4ca0a2ae735e8834f8a09bbdab48573a,
+      type: 3}
+  droneSettings:
+    startSpeed: 2
+    minSpeed: 1
+    maxSpeed: 10
+    startCount: 3
+    minCount: 1
+    maxCount: 10
+  pickSettings:
+    pickupTime: 2
+    reward: 5
+  physicsSettings:
+    targetLayer: 6
+  audioSettings:
+    receiveGemClip: {fileID: 8300000, guid: bc2439bbfd19f0e42836367e0c97f689, type: 3}
+    pickupGemClip: {fileID: 8300000, guid: 61e8a47fef0088a4e946e312ae3930fe, type: 3}
